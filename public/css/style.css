@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+/*    overflow: hidden;*/
+}
+
+/* MAIN PAGE */
+#main {
+    background: darkgrey;
+    padding: 1.5%;
+    margin-top: 2.5%;
+    border:2px solid white;
+    border-radius: 15px;
+}
+#main input,div {
+    margin-bottom: 1.5%;
+}
+#main .title {
+    font-size: 125%;
+    font-weight: bolder;
+}
+#population {
+    margin-top:2.5%;
+}
+#civilization {
+    font-size: 125%;
+    font-weight: bolder;
+    margin-top:1%;
+    padding: 1%;
+    text-align: center;
+    color: red;
+}
+.civilizacion {
+    margin-top:1.5%;
+    border:0 solid transparent;
+    height: 145px;
+
+}
+.civilizacion:hover {
+    border-color: black;
+    border-width: 0 3px 0 3px;
+}
+#play {
+    margin-top: 3.5%;
+    background: lightblue;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+
+/* BOARD GAME */
+
+#map {
+    display: none;
+    border-radius: 15px;
+}
+/* CONTROLS MAP */
+#info {
+    width: 500px;
+    height: 165px;
+    border: solid black;
+    border-width: 10px 1px 20px 2px;
+    border-radius: 5% 2% 2% 53%;
+}
+#info #_soldier img {
+    width: 50px;
+    height: 50px;
+}
+#soldier1, #soldier2, #soldier3 {
+    width: 75px;
+    height: 75px;
+    border: solid black;
+    border-width: 1px 0 1px 0;
+    background-size: 150% 150%;
+
+}
+#soldier1 img, #soldier2 img, #soldier3 img {
+    width: 70px;
+    height: 70px;
+}
+#move, #attack, #deleter{
+    width: 55px;
+    height: 55px;
+    background: lightgrey;
+}
+#move img, #attack img, #deleter img{
+    width: 50px;
+    height: 50px;
+}
+.dataN {
+    font-size: 125%;
+    font-weight: bolder;
+    padding: 1%;
+}
+.dataE {
+    font-size: 150%;
+    font-weight: 500;
+    padding: 1%;
+    color:red;
+}
+.dataC {
+    padding: 7.5%;
+}

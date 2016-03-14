@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    #main.col-md-4.col-md-offset-4
+        .col-xs-12
+            .col-md-3.title Nombre:
+            input#username.col-md-9.input-md(type="text", placeholder="nombre de usuario")
+        .col-xs-12
+            .col-md-3.title Color:
+            button#btnColor.col-md-9.col-xs-12(class="jscolor {valueElement:null,value:'66ccff'}") &nbsp;
+        .col-xs-12
+            .col-xs-12
+                #population.col-md-3.title Población:
+                #civilization.col-md-9
+            .col-md-12.title
+                img#Atarfe.col-xs-6.civilizacion(src="/imgs/cities/Atarfe.jpg")
+                img#Albolote.col-xs-6.civilizacion(src="/imgs/cities/Albolote.jpeg")
+                img#Maracena.col-xs-6.civilizacion(src="/imgs/cities/Maracena.jpg")
+                img#SantaFe.col-xs-6.civilizacion(src="/imgs/cities/SantaFe.jpeg")
+        .col-xs-12
+            button#play.btn.col-xs-4.col-xs-offset-4 Juega!
+    #map
+
+
+

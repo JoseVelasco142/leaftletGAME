@@ -1,0 +1,23 @@
+doctype html
+html
+      head
+            title= title
+            meta(charset='utf-8')
+            meta(name='viewport', content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0')
+
+            link(rel='stylesheet', href='/css/bootstrap.min.css')
+            link(rel='stylesheet', href='/css/bootstrap.theme.css')
+            link(rel='stylesheet', href='/css/style.css')
+            link(href='/css/mapbox.css', rel='stylesheet')
+            link(href='/css/easy-button.css', rel='stylesheet')
+            link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css')
+
+            script(src='/js/jquery-2.2.1.min.js')
+            script(src='/js/bootstrap.min.js')
+            script(src='/js/socket.io.js')
+            script(src='/js/leaflet.js')
+            script(src='/js/easy-button.js')
+            script(src='/js/jscolor.js')
+            script(src='/js/main.js')
+      body
+            block content
